@@ -1,0 +1,81 @@
+ul {
+  list-style: none;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.con {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.banner {
+  background: url(https://sangalotech.com/html/10/assets/images/hero-bg.jpg);
+  background-size: cover;
+  height: 100vh;
+  padding: 20px 0;
+}
+.banner .con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.banner nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+.banner nav ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.aa {
+  -webkit-animation: aa 2s linear infinite;
+          animation: aa 2s linear infinite;
+}
+
+@-webkit-keyframes aa {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes aa {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.s, .box1, .box {
+  border: 2px solid;
+  padding: 30px;
+}
+
+.box {
+  border-color: seagreen;
+  width: 90.9090909091%;
+}
+
+.box1 {
+  border-color: lightseagreen;
+}/*# sourceMappingURL=style.css.map */

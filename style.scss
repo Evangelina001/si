@@ -1,0 +1,57 @@
+@mixin flex 
+{
+    display: flex;justify-content: space-between;
+    align-items: center;
+}
+ul{list-style: none;}
+*{
+    margin: 0%;padding: 0%; box-sizing: border-box;
+}
+.con
+{
+    max-width: 1200px;margin: auto;
+
+}
+.banner
+{
+    background: url(https://sangalotech.com/html/10/assets/images/hero-bg.jpg);
+    background-size:cover;
+    height:100vh;
+    padding:20px 0;
+    .con{
+        @include flex;
+
+    }
+    nav
+    {
+        ul
+        {
+            @include flex; gap: 20px;
+            a{color: #fff; text-decoration: none;}
+        }
+    }
+}
+.aa
+{
+    animation: aa 2s linear infinite;
+}
+@keyframes aa{
+    100%{transform: rotate(360deg)}
+}
+.s
+{
+    border: 2px solid;
+    padding: 30px
+}
+.box
+{
+    @extend .s;
+    border-color: seagreen;
+    width: 300px/330px*100%;
+
+}
+.box1
+{
+@extend .s;
+border-color: lightseagreen;
+}
